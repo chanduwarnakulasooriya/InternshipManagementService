@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSelectedInternsTable extends Migration
+class CreateJobvacanciesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateSelectedInternsTable extends Migration
      */
     public function up()
     {
-        Schema::create('selected_interns', function (Blueprint $table) {
+        Schema::create('jobvacancies', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table ->string('Selected_or_not');
+            $table->unsignedBigInteger('job_id');
+            $table->string('Job');
+            $table->string('Position');
+            $table->string('Condition');
             $table->timestamps();
-            $table ->foreign('user_id')->references('user_id')->on('user');
         });
     }
 
@@ -29,6 +30,6 @@ class CreateSelectedInternsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('selected_interns');
+        Schema::dropIfExists('jobvacancies');
     }
 }

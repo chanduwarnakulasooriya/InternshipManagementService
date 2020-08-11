@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Admin;
+use App\jobvacancies;
 use Illuminate\Http\Request;
 
-class ApplyController extends Controller
+class JobvacanciesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +15,8 @@ class ApplyController extends Controller
     public function index()
     {
         //
-
-
-
+        $jobs = DB::select('select * from jobvacancies');
+        return view('job_view',['jobs'=>$jobs]);
     }
 
     /**
@@ -44,10 +43,10 @@ class ApplyController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\jobvacancies  $jobvacancies
      * @return \Illuminate\Http\Response
      */
-    public function show(Admin $admin)
+    public function show(jobvacancies $jobvacancies)
     {
         //
     }
@@ -55,10 +54,10 @@ class ApplyController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\jobvacancies  $jobvacancies
      * @return \Illuminate\Http\Response
      */
-    public function edit(Admin $admin)
+    public function edit(jobvacancies $jobvacancies)
     {
         //
     }
@@ -67,10 +66,10 @@ class ApplyController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Admin  $admin
+     * @param  \App\jobvacancies  $jobvacancies
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Admin $admin)
+    public function update(Request $request, jobvacancies $jobvacancies)
     {
         //
     }
@@ -78,10 +77,10 @@ class ApplyController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\jobvacancies  $jobvacancies
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Admin $admin)
+    public function destroy(jobvacancies $jobvacancies)
     {
         //
     }
