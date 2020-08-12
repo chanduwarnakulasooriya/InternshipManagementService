@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb2fce3-36c9-4702-9578-2d1680500786" name="Default Changelist" comment="Added Login and Register">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/job_view.blade.php" afterDir="false" />
+    <list default="true" id="7fb2fce3-36c9-4702-9578-2d1680500786" name="Default Changelist" comment="showing job vacancies to user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApplyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_10_152528_create_interns_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_10_152528_create_interns_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_10_180317_create_selected_interns_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_10_180317_create_selected_interns_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Intern.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Intern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/job_view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/job_view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597064455296</updated>
-      <workItem from="1597064456367" duration="27123000" />
+      <workItem from="1597064456367" duration="33473000" />
     </task>
     <task id="LOCAL-00001" summary="Added Login and Register">
       <created>1597133063662</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597133063662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="showing job vacancies to user">
+      <created>1597169097064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597169097064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Login and Register" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Login and Register" />
+    <MESSAGE value="showing job vacancies to user" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing job vacancies to user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597119984219">
@@ -204,18 +211,20 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="699" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1597119585100" />
-    <state x="801" y="438" key="NewPhpFileDialog" timestamp="1597134713082">
+    <state x="801" y="438" key="NewPhpFileDialog" timestamp="1597213725525">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="801" y="438" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1597134713082" />
+    <state x="801" y="438" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1597213725525" />
+    <state x="801" y="439" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1597213037969" />
     <state x="221" y="74" key="SettingsEditor" timestamp="1597069027930">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1597069027930" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1597133080477">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1597169107927">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1597133080477" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1597169107927" />
     <state x="562" y="316" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597064729940">
       <screen x="0" y="23" width="1440" height="824" />
     </state>

@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/adminpanel/selected', function () {
+    return view(pages.SelectedInterns);
+});
 
 Auth::routes();
 
