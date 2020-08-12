@@ -19,8 +19,12 @@ Route::get('/', function () {
 Route::get('/jobs', function () {
     return view('job_view');
 });
-
+Route::get('/apply', function () {
+    return view('Apply_view');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/jobs', 'JobVacanciesController@index')->name('jobs');
+Route::get('/apply', 'ApplyController@Apply')->name('apply');
+Route::post('/apply', 'ApplyController@ApplyPost')->name('apply.post');

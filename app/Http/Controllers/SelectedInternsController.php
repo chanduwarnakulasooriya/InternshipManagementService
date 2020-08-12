@@ -15,6 +15,7 @@ class SelectedInternsController extends Controller
     public function index()
     {
         //
+
     }
 
     /**

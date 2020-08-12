@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb2fce3-36c9-4702-9578-2d1680500786" name="Default Changelist" comment="minor changes in view">
+    <list default="true" id="7fb2fce3-36c9-4702-9578-2d1680500786" name="Default Changelist" comment="Created Jobs Viewing to the user part">
+      <change afterPath="$PROJECT_DIR$/resources/views/Apply_view.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/JobvacanciesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/JobvacanciesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/job_view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/job_view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApplyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SelectedInternsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SelectedInternsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/Apply_view.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -160,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597064455296</updated>
-      <workItem from="1597064456367" duration="34929000" />
+      <workItem from="1597064456367" duration="36486000" />
     </task>
     <task id="LOCAL-00001" summary="Added Login and Register">
       <created>1597133063662</created>
@@ -183,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597224145729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Jobs Viewing to the user part">
+      <created>1597225970764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597225970764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +202,8 @@
     <MESSAGE value="Added Login and Register" />
     <MESSAGE value="showing job vacancies to user" />
     <MESSAGE value="minor changes in view" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes in view" />
+    <MESSAGE value="Created Jobs Viewing to the user part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Jobs Viewing to the user part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="86" key="#PHP" timestamp="1597224846286">
@@ -238,12 +248,12 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1597069027930" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1597224152008">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1597225979157">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1597133080477" />
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1597169107927" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1597224152008" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1597225979157" />
     <state x="562" y="316" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597064729940">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
