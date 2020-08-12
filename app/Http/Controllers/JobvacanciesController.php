@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\jobvacancies;
 use Illuminate\Http\Request;
+use DB;
+
 
 class JobvacanciesController extends Controller
 {

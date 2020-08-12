@@ -12,12 +12,12 @@
         <td>Conditions</td>
         <td>Apply</td>
     </tr>
-    @foreach ($users as $user)
+    @foreach ($jobs as $user)
         <tr>
             <td>{{ $user->id }}</td>
             <td>{{ $user->Job }}</td>
             <td>{{ $user->Position }}</td>
-            <td>{{ $user->Conditions }}</td>
+            <td>{{ $user->Condition }}</td>
             <td></td>
         </tr>
     @endforeach

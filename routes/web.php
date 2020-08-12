@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/adminpanel/selected', function () {
-    return view(pages.SelectedInterns);
+Route::get('/jobs', function () {
+    return view('job_view');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/jobs', 'JobVacanciesController@index')->name('jobs');
